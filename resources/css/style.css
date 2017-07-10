@@ -2,13 +2,12 @@ html {
   font-family: Helvetica, sans-serif;
   font-size: 18px;
   background-color: white;
-  /*display: block;*/
 }
 
 header {
   background: url(../img/glasses-bg.png) no-repeat center center;
   background-size: cover;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   height: 30rem;
 }
 
