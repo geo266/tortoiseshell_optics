@@ -11,3 +11,21 @@ header {
   padding-top: 1rem;
   height: 30rem;
 }
+
+nav {
+  background: cadetblue;
+  color: white;
+}
+
+.main-banner {
+  background: white;
+}
+
+.title {
+  background-color: cadetblue;
+  color: white;
+}
+
+footer {
+  background-color: azure;
+}
