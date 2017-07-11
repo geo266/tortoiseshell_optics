@@ -11,6 +11,14 @@ header {
   height: 30rem;
 }
 
+header .flex {
+  justify-content: flex-end;
+}
+
+.flex {
+  display: flex;
+}
+
 nav {
   background: cadetblue;
   color: white;
@@ -31,13 +39,42 @@ nav img {
   margin-right: 1rem;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 .main-banner {
   background: white;
+  display: inline-block;
+  padding: 0.75rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 2.4rem;
 }
 
 .title {
   background-color: cadetblue;
   color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service img {
+  width: 5rem;
+}
+
+.service img.paper-icon {
+  width: 3.5rem;
 }
 
 footer {
